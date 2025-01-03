@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografia i Filmy 360 VR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Fotografia i Filmy 360 VR</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">O mnie</a></li>
+                    <li><a href="#services">Oferta</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Profesjonalne usługi fotograficzne i produkcja filmów 360 VR</h2>
+            <p>Odkryj wyjątkowe doświadczenia wizualne dzięki naszym usługom.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>O mnie</h2>
+            <p>Jestem pasjonatem fotografii i technologii VR. Specjalizuję się w tworzeniu unikalnych treści wizualnych, które angażują i inspirują.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Oferta</h2>
+            <ul>
+                <li>Profesjonalne sesje zdjęciowe</li>
+                <li>Produkcja filmów 360 VR</li>
+                <li>Edycja zdjęć i filmów</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Zapoznaj się z naszymi pracami:</p>
+            <div class="gallery">
+                <!-- Tu możesz dodać zdjęcia i filmy -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <form>
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+    
